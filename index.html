@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sudarshan Patil | Portfolio</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #1e1e2f, #232347);
+      color: white;
+      overflow-x: hidden;
+      animation: fadeIn 1s ease-in;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    header {
+      padding: 2rem;
+      text-align: center;
+      animation: fadeIn 1.2s ease-in;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin: 0;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #aaa;
+    }
+    .hero {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 2rem;
+    }
+    .card {
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 1rem;
+      padding: 2rem;
+      margin: 1rem;
+      max-width: 600px;
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+      transition: transform 0.4s ease, box-shadow 0.4s ease;
+      transform-style: preserve-3d;
+      animation: fadeIn 1.5s ease-in;
+    }
+    .card:hover {
+      transform: rotateY(5deg) rotateX(5deg) scale(1.03);
+      box-shadow: 0 0 40px rgba(255, 255, 255, 0.2);
+    }
+    .card h2 {
+      color: #7de2fc;
+    }
+    .social {
+      text-align: center;
+      margin-top: 3rem;
+    }
+    .social a {
+      margin: 0 1rem;
+      color: #7de2fc;
+      text-decoration: none;
+      font-size: 1.5rem;
+    }
+    footer {
+      text-align: center;
+      margin-top: 4rem;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Sudarshan Patil</h1>
+    <p>Cloud | SRE | Monitoring | Auth0 | Azure | BI | DevSecOps</p>
+  </header>
+
+  <div class="hero">
+    <div class="card">
+      <h2>About Me</h2>
+      <p>Experienced in SRE and cloud operations with expertise in monitoring tools, Azure services, BI platforms, and identity management systems. Passionate about automation, reliability, and building clean dashboards and systems.</p>
+    </div>
+
+    <div class="card">
+      <h2>Skills</h2>
+      <p>Azure, Auth0, Datadog, Sisense, Grafana, O365, Salesforce, MongoDB, Snowflake, Tenable, Rapid7, Cyclr, kubectl, Ubuntu/Linux</p>
+    </div>
+
+    <div class="card">
+      <h2>Certifications</h2>
+      <ul>
+        <li>Master in Cloud Computing (Jetking Swargate, Distinction)</li>
+        <li>Pyramid Certified Professional</li>
+        <li>Level 1 Professional Administrator (Learning Hub, July 2025)</li>
+        <li>Ethical Hacking with Python</li>
+        <li>MS-CIT</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Hobbies</h2>
+      <p>Gaming 🎮 | Gym 🏋️ | Motorcycle Modding 🏍️</p>
+    </div>
+  </div>
+
+  <div class="social">
+    <a href="https://www.linkedin.com/in/sudarshan-patil-b29727290" target="_blank">LinkedIn</a>
+    <a href="#">GitHub</a>
+    <a href="#">Resume</a>
+  </div>
+
+  <footer>
+    © 2025 Sudarshan Patil | Designed with 💙
+  </footer>
+</body>
+</html>
